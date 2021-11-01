@@ -17,62 +17,6 @@ import java.util.Scanner;
 
 public class Employee {
 	
-	public int EmployeeId;
-	public String EmployeeName;
-	public double BasicSalary;
-	public double HRA;
-	public double SpecialAllowance;
-	public double TransportAllowance;
-	
-	
-	public int getEmployeeId() {
-		return EmployeeId;
-	}
-
-	public void setEmployeeId(int employeeId) {
-		EmployeeId = employeeId;
-	}
-
-	public String getEmployeeName() {
-		return EmployeeName;
-	}
-
-	public void setEmployeeName(String employeeName) {
-		EmployeeName = employeeName;
-	}
-
-	public double getBasicSalary() {
-		return BasicSalary;
-	}
-
-	public void setBasicSalary(double basicSalary) {
-		BasicSalary = basicSalary;
-	}
-
-	public double getHRA() {
-		return HRA;
-	}
-
-	public void setHRA(double hRA) {
-		HRA = hRA;
-	}
-
-	public double getSpecialAllowance() {
-		return SpecialAllowance;
-	}
-
-	public void setSpecialAllowance(double specialAllowance) {
-		SpecialAllowance = specialAllowance;
-	}
-
-	public double getTransportAllowance() {
-		return TransportAllowance;
-	}
-
-	public void setTransportAllowance(double transportAllowance) {
-		TransportAllowance = transportAllowance;
-	}
-
 	public static void CalculateNetSalary(int EmployeeId,String EmployeeName,double BasicSalary,double HRA,double SpecialAllowance,double TransportAllowance) {
 		double NetSalary;
 		double Tax=2500.0;
