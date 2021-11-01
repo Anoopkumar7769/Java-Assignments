@@ -43,7 +43,10 @@ public class FlowerDemo1 {
 		
 		public static void main(String[] args) 
 		{
-			displayFlower("europe");
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the name of continent");
+			String temp = sc.next();
+			displayFlower(temp);
 		}
 
 	
