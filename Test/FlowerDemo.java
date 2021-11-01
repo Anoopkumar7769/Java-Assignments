@@ -18,12 +18,15 @@ public class FlowerDemo {
 			 System.out.println("Country Name: FRANCE and National Flower : LILY");
 			 System.out.println("Country Name: GREECE and National Flower : ACANTHUS MOLLIS");
 		}
-		else
+		else if(display == "Africa")
 		{
 			 System.out.println("Continent Name: Africa");
 			 System.out.println("Country Name : EGYPT and National Flower : BLUE LOTUS");
 			 System.out.println("Country Name : NIGERIA and National Flower : YELLOW TRUMPET ");
 			 System.out.println("Country Name : KENYA and National Flower : ORCHID");
+		}
+		else {
+			System.out.println("Invalid Option");
 		}
 	}
 	
